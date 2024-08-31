@@ -1,17 +1,43 @@
-# Operators
+# Arithmetic_Operators
 
-Aim: To study and implement operators in c++
+## AIM - 
+To use operators to add two numbers.
+## Software Used
+VS Code
+## Theory
+Airthmetic operators are symbols used in programming to perform operations on variables and values. They are important to writing expressions and making decisions in code.
 
-Theory: Operators in C++ are symbols or keywords used to perform operations on data, enabling tasks like arithmetic, comparisons, and logical evaluations. They are categorized into several types:
+### Types: 
+Addition (+): Adds two operands.
+Example: a + b
+Subtraction (-): Subtracts the second operand from the first.
+Example: a - b
+Multiplication (*): Multiplies two operands.
+Example: a * b
+Division (/): Divides the numerator by the denominator.
+Example: a / b
+Modulus (%): Returns the remainder of a division operation.
+Example: a % b
 
--Arithmetic Operators: Used for basic math operations, including +, -, *, /, and %.
+## Algorithm 
 
--Relational Operators: Used for comparisons, such as ==, !=, <, >, <=, and >=.
+* Start
+* Declare three integer variables: a, b, and c.
+* Prompt and Read First Number
 
--Logical Operators: Allow combining conditions, using &&, ||, and !.
+* Output: "Enter num 1: ".
+Read the input value and store it in variable a.
+Prompt and Read Second Number
 
--Bitwise Operators: Perform operations on bits, including &, |, ^, ~, <<, and >>.
+* Output: "Enter num 2: ".
+Read the input value and store it in variable b.
+Calculate the Sum
 
--Assignment Operators: Assign values and can perform operations like =, +=, -=, *=, and /=.
+* Compute the sum of a and b and store the result in variable c.
+Output the Result
 
--Increment/Decrement Operators: Increase or decrease a variable's value by one (++ and --).
+* Output the result: "The No. is: " followed by the value of c.
+* End
+
+## Conclusion 
+We learnt to use the basic arithmetic operators in C++.
